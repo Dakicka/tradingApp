@@ -16,7 +16,7 @@ jobs:
       # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js LTS version
         uses: actions/setup-node@v3
         with:
